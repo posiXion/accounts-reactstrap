@@ -1,6 +1,10 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import FA from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add(fab);
 
 import './main.css';
 
@@ -32,8 +36,8 @@ const Submit = ({
     // console.log(color);
 
     return (
-      <Button color={social} onClick={onClick} className="social-btn">
-        <FA className="mr-1" icon={['fab', social]} /> Continue with {capitalize(social)}
+      <Button color={social} onClick={onClick} className={ ['social-btn', social].join(' ') }>
+        <FontAwesomeIcon className="mr-1" icon={['fab', social]} /> Continue with {capitalize(social)}
       </Button>
     );
   }
