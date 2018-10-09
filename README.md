@@ -2,12 +2,16 @@
 Reactstrap components for accounts-react published under arichter:accounts-reactstrap
 
 # Install
-of unpublished package for development
+```
+meteor add arichter:accounts-reactstrap
+```
+
+# Install for package development
 ```
 mkdir packages
 cd packages
 git clone http://github.com/understandr/accounts-reactstrap
-meteor add meteoreact:accounts-reactstrap
+meteor add arichter:accounts-reactstrap
 ```
 
 # Credits
