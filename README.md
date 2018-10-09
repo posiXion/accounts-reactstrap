@@ -4,6 +4,9 @@ Reactstrap components for accounts-react published under arichter:accounts-react
 # Install
 ```
 meteor add arichter:accounts-reactstrap
+meteor npm install @fortawesome/fontawesome-svg-core
+meteor npm install @fortawesome/free-brands-svg-icons
+meteor npm install @fortawesome/react-fontawesome
 ```
 
 # Install for package development
