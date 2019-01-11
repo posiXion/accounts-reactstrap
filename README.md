@@ -17,6 +17,8 @@ git clone http://github.com/understandr/accounts-reactstrap
 meteor add arichter:accounts-reactstrap
 ```
 
+And later `meteor publish`.
+
 # Credits
 
 Original version of this package by https://github.com/Biscoint
