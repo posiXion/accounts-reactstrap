@@ -3,8 +3,10 @@ import { Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebook, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icons';
-library.add(faFacebook, faGoogle, faTwitter );
+import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
+library.add(faFacebook, faGoogle, faTwitter);
 
 import './main.css';
 
