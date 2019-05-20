@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 // import { Form, Radio, Label } from 'semantic-ui-react'
 
 class RadioField extends React.Component {
