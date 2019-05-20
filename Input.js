@@ -1,5 +1,8 @@
 import React from 'react';
-import { FormGroup, Input, Label, FormFeedback } from 'reactstrap';
+import FormGroup from 'reactstrap/lib/FormGroup'
+import Input from 'reactstrap/lib/Input'
+import Label from 'reactstrap/lib/Label'
+import FormFeedback from 'reactstrap/lib/FormFeedback'
 
 // const iconMapper = {
 //   username: 'user',

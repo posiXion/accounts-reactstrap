@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Alert } from 'reactstrap';
+import Alert from 'reactstrap/lib/Alert';
 
 const Errors = ({ errors }) => (
   <Alert color="danger" isOpen={errors.length > 0}>
