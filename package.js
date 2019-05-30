@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Reactstrap UI Components for accounts-React',
-  version: '0.5.6',
+  version: '0.5.7',
   name: 'arichter:accounts-reactstrap',
   git: 'https://github.com/posixion/accounts-reactstrap.git',
   documentation: 'README.md'
