@@ -39,7 +39,7 @@ const Submit = ({
 
     return (
       <Button color={social} onClick={onClick} className={ ['social-btn', social].join(' ') }>
-        <FontAwesomeIcon className="mr-1" icon={['fab', social]} /> Continue with {capitalize(social)}
+        <FontAwesomeIcon className="mr-1" icon={['fab', social]} /> {capitalize(social)}
       </Button>
     );
   }
