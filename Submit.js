@@ -6,7 +6,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
-library.add(faFacebook, faGoogle, faTwitter);
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
+library.add(faFacebook, faGoogle, faTwitter, faLinkedin);
 
 import './main.css';
 
